@@ -1,0 +1,113 @@
+.modal{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(99, 78, 78, 0.137);
+    display: flex;
+    justify-self: right;
+    align-items: center;
+    .container {
+        background-color: white;
+        width: 60%;
+        height: 60%;
+        display: flex;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        color: black;
+        border-radius: 10px;
+        // align-items: center;
+        .btnClose{
+            border: none;
+            outline: none;
+            width: 32px;
+            height: 32px;
+            top: 16px;
+            display: flex;
+            position: absolute;
+            top: 8px;
+            right: 16px;
+            cursor: pointer;
+        }
+    }
+}
+.titleForm{
+    width: 80%;
+    height: 10%;
+    background-color: cadetblue;
+}
+.fields{
+    height: 80%;
+    width: 100%;
+    margin-top: 5.1%;
+    margin-left: -70%;
+    // background-color: yellowgreen;
+}
+
+.tableContainerTrainee {
+    position: absolute;
+    display: flex;
+    background-color: blueviolet;
+
+}
+
+
+
+
+//############### ADD TRAINEE 
+tableConteinerTrainee{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(99, 78, 78, 0.137);
+    display: flex;
+    justify-self: right;
+    align-items: center;
+}
+.divBtnAddTrainee {
+    align-items: flex-end;
+    align-self: flex-end;
+    width: 100vh;
+    background-color: blue;
+    
+    
+        .btnAddTrainee{
+            justify-self: right;
+        }
+    
+    }
+    headerFormTrainee {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 10;
+        background-color: rgba(99, 78, 78, 0.137);
+        display: flex;
+        justify-self: right;
+        align-items: center;
+        background-color: burlywood;
+    }
+
+//###################### ADD CONVENTION
+
+headerFormAddConvention {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    background-color: rgba(99, 78, 78, 0.137);
+    display: flex;
+    justify-self: right;
+    align-items: center;
+    background-color: burlywood;
+}
